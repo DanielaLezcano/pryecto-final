@@ -1,0 +1,11 @@
+.box2{
+    font-weight: bold;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(43, 43, 241);
+    color: azure;
+    text-align: center;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

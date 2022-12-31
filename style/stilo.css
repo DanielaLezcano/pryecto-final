@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2? family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+p {
+  font-weight: lighter;
+  word-spacing: 5px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  padding: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+h1 {
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+h2 {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+footer {
+  padding: 70px;
+  margin-top: 100px;
+  background-color: darkslategray;
+  text-align: center;
+}
+footer p {
+  color: black;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.flex {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.flex img {
+  width: 250px;
+  border: solid 2px;
+  border-radius: 30px;
+}
+
+.grid {
+  margin-left: 100px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+}
+.grid img {
+  width: 250px;
+  border: solid 2px;
+  border-radius: 30px;
+}
+
+.box2 {
+  font-weight: bold;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(43, 43, 241);
+  color: azure;
+  text-align: center;
+}
+.box2:hover {
+  transform: scale(1.1);
+}
+
+.cuadros, .nosotros {
+  border: solid 2px;
+  border-radius: 40px;
+}
+
+.nosotros {
+  font-size: 25px;
+}
+
+header {
+  padding: 30px;
+  background-color: darkslategray;
+}
+
+.color {
+  background-color: darkslategray;
+}
+
+.tarjetas li {
+  margin-left: 25px;
+}
+
+.formulario form {
+  margin-top: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 400px) {
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=stilo.css.map */

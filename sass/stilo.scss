@@ -1,0 +1,48 @@
+@import "variableglobal";
+@import url('https://fonts.googleapis.com/css2? family=Lato&display=swap');
+@import "general";
+@import "footer";
+@import "flex";
+@import "grid";
+@import "box";
+@import "extend";
+
+header{
+    padding: 30px;
+    background-color: darkslategray;
+}
+.color{
+    background-color: darkslategray;
+}
+.tarjetas li{
+    margin-left: 25px;
+}
+
+.formulario form{
+    margin-top: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width:400px) {
+    h1{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+@media (min-width:768px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
